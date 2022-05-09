@@ -17,7 +17,7 @@ keyboard.classList.add('keyboard');
 document.body.append(keyboard);
 
 let h1 = document.createElement('h1');
-h1.innerHTML = "language: CTRL + SHIFT";
+h1.innerHTML = "language: ALT + SHIFT";
 document.body.before(h1);
 
 
