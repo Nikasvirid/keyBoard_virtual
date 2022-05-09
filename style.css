@@ -1,0 +1,83 @@
+body{
+	margin-top: 50px;
+	font-family:Verdana, Tahoma, sans-serif;
+	font-size: 15px;
+	color: aliceblue;
+	display: grid;
+    justify-content: center;
+    background-color:rgb(19, 15, 15)
+}
+
+.textarea {
+    
+    width: 750px;
+	height: 80px;
+	resize: none;
+	border-radius: 4px;
+	border: 1px solid  #faf603;
+    background-color: #f9fdfd;
+	padding: 10px;
+}
+
+.keyboard {
+	max-width: 780px;
+    display: grid;
+    grid-template-columns: repeat(60, 8px);
+	grid-gap: 5px;	
+	padding-top: 15px;
+}
+
+h1 {
+    margin-left: 30px;
+    color: #f810d9;
+}
+
+.keyboard__button {	
+	background-color: #d602ba;	
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	border:1px solid yellow;
+	user-select: none;
+}
+
+.keyboard__button4 {	
+	
+	grid-column: span 4;	
+}
+
+.keyboard__button5 {	
+	grid-column: span 5;	
+}
+
+.keyboard__button6 {	
+	grid-column: span 6;	
+}
+
+.keyboard__button8 {	
+	grid-column: span 8;	
+}
+
+.keyboard__button10 {	
+    
+	grid-column: span 10;	
+}
+
+.keyboard__button19 {	
+	grid-column: span 19;	
+}
+
+.keyboard__button:hover {
+	opacity: 0.8;	
+}
+.keyboard__button:active {
+	background-color: #fd6912;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+.active {
+	background-color: #ff9035;
+	
+}
+
